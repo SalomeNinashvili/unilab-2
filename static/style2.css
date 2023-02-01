@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	
+   
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+header, nav {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  
+    
+}
+ul{
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+    margin-left: 600px;
+   
+}
+li{
+    display: inline;
+    margin: auto;
+    margin-right: 20px;
+    
+}
+a{
+    text-decoration: none; color: black;
+}
+
+main{
+    margin-top: 150px;
+    margin-left: 240px;
+    margin-bottom: 200px;
+    
+}
+
+section{
+    display: inline-block;
+    width: 333px;
+    height: 481px;
+    border: 1px solid black;
+    margin-right: 12px;
+}
+
+img{
+    margin: 10px;
+}
+
+p, h5 {
+    margin: 10px;
+}
+
+p{
+    padding-top: 7px;
+} 
+
+h2{
+    font-size: 40px;
+    margin-left: 300px;
+    font-family: "poppins";
+}
+
+h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.textbox{
+    margin-top: 100px;
+} 
+
+.txt, .address{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    width:  775px;
+    margin-top: 100px;
+}
